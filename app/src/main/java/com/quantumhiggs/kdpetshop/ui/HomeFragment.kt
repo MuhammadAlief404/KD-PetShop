@@ -1,4 +1,4 @@
-package com.quantumhiggs.kdpetshop.ui.home
+package com.quantumhiggs.kdpetshop.ui
 
 
 import android.os.Bundle
@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.navArgs
 import com.quantumhiggs.kdpetshop.R
+import com.quantumhiggs.kdpetshop.adapter.SliderAdapter
 import com.smarteist.autoimageslider.IndicatorAnimations
 import com.smarteist.autoimageslider.SliderAnimations
 import kotlinx.android.synthetic.main.fragment_home.*
@@ -41,7 +42,8 @@ class HomeFragment : Fragment() {
         }
 
         btn_about_us_home.setOnClickListener {
-            val direction = HomeFragmentDirections.actionToAboutUs()
+            val direction =
+                HomeFragmentDirections.actionToAboutUs()
             it.findNavController().navigate(direction)
         }
     }

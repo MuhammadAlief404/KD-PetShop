@@ -1,4 +1,4 @@
-package com.quantumhiggs.kdpetshop.ui.home
+package com.quantumhiggs.kdpetshop.adapter
 
 import android.view.LayoutInflater
 import android.view.View

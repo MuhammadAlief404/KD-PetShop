@@ -19,5 +19,12 @@
     <string name="adopt_pet">Adopt Pet</string>
     <string name="about_us">About Us</string>
     <string name="copyright_of_kd_petshop">Copyright of KD PetShop</string>
+    <string name="kd_petshop">KD PetShop</string>
+    <string name="about_us_desc">Kami Adalah perusahaan yang berfokus pada bidang adopsi hewan. Tidak hanya itu, kami juga menawarkan beberapa jasa seperti penginapan hewan, dan jual beli aksesoris dan makanan hewan</string>
+    <string name="desc_penginapan">Kami menawarkan jasa penginapan hewan dengan berbagai macam fasilitas, jaminan, dan program yang menarik sekaligus mendidik untuk hewan kesayangan Anda.</string>
+    <string name="image_penginapan">Image Penginapan</string>
+    <string name="desc_aksesoris_1">Kami juga menjual berbagai mainan dan aksesoris dari berbagai brand dengan harga dan kualitas yang bervarisasi untuk hewan kesayangan anda.</string>
+    <string name="image_dog_walking">Image Dog Walking</string>
+    <string name="desc_aksesoris_2">Kami juga menyediakan jasa perawatan hewan kesayangan anda seperti grooming, mandi anti jamur dan kutu, serta perawatan lainnya yang dibutuhkan hewan peliharaan anda.</string>
 
 </resources>

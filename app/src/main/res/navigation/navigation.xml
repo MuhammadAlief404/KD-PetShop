@@ -20,7 +20,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.quantumhiggs.kdpetshop.ui.home.HomeFragment"
+        android:name="com.quantumhiggs.kdpetshop.ui.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
