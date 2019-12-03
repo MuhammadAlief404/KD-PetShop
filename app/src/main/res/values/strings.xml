@@ -12,4 +12,9 @@
     <string name="login">Login</string>
     <string name="don_t_have_an_account_create_account">Don\'t have an Account ? Create Account</string>
     <string name="forgot_password">Forgot Password ?</string>
+
+    <string name="error_empty_username">"Username can't be Empty"</string>
+    <string name="error_empty_password">"Password can't be Empty"</string>
+    <string name="error_length_username">"Username must greater than 6"</string>
+    <string name="error_length_password">"Password must greater than 6"</string>
 </resources>
