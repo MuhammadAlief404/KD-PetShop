@@ -1,4 +1,4 @@
-package com.quantumhiggs.kdpetshop.ui
+package com.quantumhiggs.kdpetshop.ui.login
 
 
 import android.os.Bundle
@@ -35,7 +35,9 @@ class LoginFragment : Fragment() {
                     getString(R.string.error_length_password)
                 else -> {
                     val direction =
-                        LoginFragmentDirections.actionToHome(edt_username_login.text.toString())
+                        LoginFragmentDirections.actionToHome(
+                            edt_username_login.text.toString()
+                        )
                     it.findNavController().navigate(direction)
                 }
             }

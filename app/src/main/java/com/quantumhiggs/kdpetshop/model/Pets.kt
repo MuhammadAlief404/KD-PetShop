@@ -1,3 +1,13 @@
 package com.quantumhiggs.kdpetshop.model
 
-data class Pets(val race: String, val image: String, val age: String, val sex: String)
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+
+@Parcelize
+data class Pets(
+    var race: String = "",
+    var image: Int = 0,
+    var age: String = "",
+    var sex: String = "",
+    var type : String = ""
+) : Parcelable

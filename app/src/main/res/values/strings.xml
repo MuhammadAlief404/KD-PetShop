@@ -26,5 +26,10 @@
     <string name="desc_aksesoris_1">Kami juga menjual berbagai mainan dan aksesoris dari berbagai brand dengan harga dan kualitas yang bervarisasi untuk hewan kesayangan anda.</string>
     <string name="image_dog_walking">Image Dog Walking</string>
     <string name="desc_aksesoris_2">Kami juga menyediakan jasa perawatan hewan kesayangan anda seperti grooming, mandi anti jamur dan kutu, serta perawatan lainnya yang dibutuhkan hewan peliharaan anda.</string>
+    <string name="logo_pets">Logo Pets</string>
+    <string name="race">Race :</string>
+    <string name="age">Age :</string>
+    <string name="sex">Sex :</string>
+    <string name="detail">Detail</string>
 
 </resources>

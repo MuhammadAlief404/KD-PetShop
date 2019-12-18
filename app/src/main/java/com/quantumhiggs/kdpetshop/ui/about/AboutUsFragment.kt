@@ -1,4 +1,4 @@
-package com.quantumhiggs.kdpetshop.ui
+package com.quantumhiggs.kdpetshop.ui.about
 
 
 import android.os.Bundle
@@ -11,14 +11,14 @@ import com.quantumhiggs.kdpetshop.R
 /**
  * A simple [Fragment] subclass.
  */
-class DetailPetFragment : Fragment() {
+class AboutUsFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_detail_pet, container, false)
+        return inflater.inflate(R.layout.fragment_about_us, container, false)
     }
 
 

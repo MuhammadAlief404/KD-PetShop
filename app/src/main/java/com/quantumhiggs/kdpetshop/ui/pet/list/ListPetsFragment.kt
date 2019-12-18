@@ -1,4 +1,4 @@
-package com.quantumhiggs.kdpetshop.ui
+package com.quantumhiggs.kdpetshop.ui.pet.list
 
 
 import android.os.Bundle
@@ -21,5 +21,9 @@ class ListPetsFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_list_pets, container, false)
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
+
+    }
 }
