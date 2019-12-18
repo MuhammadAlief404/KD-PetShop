@@ -1,12 +1,34 @@
 package com.quantumhiggs.kdpetshop.model.data
 
+import com.quantumhiggs.kdpetshop.R
 import com.quantumhiggs.kdpetshop.model.Pets
 
 object SugarGlider {
-    private val race = arrayOf("")
-    private val age = arrayOf("")
-    private val sex = arrayOf("")
-    private val image = intArrayOf()
+    private val race = arrayOf(
+        "Caramel",
+        "Classic",
+        "Leucistic",
+        "Piebald"
+    )
+    private val age = arrayOf(
+        "2 Years",
+        "2 Years",
+        "1 Year",
+        "3 Years"
+
+    )
+    private val sex = arrayOf(
+        "Male",
+        "Female",
+        "Female",
+        "Female"
+    )
+    private val image = intArrayOf(
+        R.drawable.caramel,
+        R.drawable.classic,
+        R.drawable.leucistic,
+        R.drawable.piebald
+    )
 
     val listGlider : ArrayList<Pets>
         get() {
