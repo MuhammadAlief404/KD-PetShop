@@ -1,12 +1,33 @@
 package com.quantumhiggs.kdpetshop.model.data
 
+import com.quantumhiggs.kdpetshop.R
 import com.quantumhiggs.kdpetshop.model.Pets
 
 object Dogs {
-    private val race = arrayOf("")
-    private val age = arrayOf("")
-    private val sex = arrayOf("")
-    private val image = intArrayOf()
+    private val race = arrayOf(
+        "Shih Tzu",
+        "Husky",
+        "Golden",
+        "Corgi"
+    )
+    private val age = arrayOf(
+        "1 Year",
+        "1 Year",
+        "3 Years",
+        "2 Years"
+    )
+    private val sex = arrayOf(
+        "Male",
+        "Female",
+        "Male",
+        "Female"
+    )
+    private val image = intArrayOf(
+        R.drawable.shihtzu,
+        R.drawable.husky,
+        R.drawable.golden,
+        R.drawable.corgi
+    )
 
     val listDog : ArrayList<Pets>
     get() {
