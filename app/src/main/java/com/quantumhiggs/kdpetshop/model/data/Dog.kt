@@ -3,7 +3,7 @@ package com.quantumhiggs.kdpetshop.model.data
 import com.quantumhiggs.kdpetshop.R
 import com.quantumhiggs.kdpetshop.model.Pets
 
-object Dogs {
+object Dog {
     private val race = arrayOf(
         "Shih Tzu",
         "Husky",

@@ -28,10 +28,12 @@
                 android:textColor="@android:color/white"
                 android:textAppearance="@style/TextAppearance.AppCompat.Title"
                 />
+
             <com.google.android.material.tabs.TabLayout
-                android:layout_marginTop="8dp"
+                android:id="@+id/tab_pet"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 app:tabTextColor="@android:color/white">
 
                 <com.google.android.material.tabs.TabItem
@@ -60,7 +62,8 @@
     </androidx.appcompat.widget.Toolbar>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list_pet"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/item_list_pet"/>
+        tools:listitem="@layout/item_list_pet" />
 </LinearLayout>

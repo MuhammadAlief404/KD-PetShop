@@ -3,6 +3,7 @@ package com.quantumhiggs.kdpetshop.ui.pet.list
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.quantumhiggs.kdpetshop.R
@@ -38,7 +39,8 @@ class ListPetsAdapter(private val sports: List<Pets>) :
                 .into(itemView.item_list_image)
 
             itemView.item_list_detail.setOnClickListener {
-                //                val direction = ListPetsFragmentDirections.actionToDetail()
+                val direction = ListPetsFragmentDirections.actionToDetail(pet)
+                it.findNavController().navigate(direction)
             }
         }
     }
